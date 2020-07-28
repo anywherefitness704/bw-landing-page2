@@ -133,7 +133,7 @@ a.memberlink:hover {
 
 button{
     margin-right: 50px;
-    background-color: #1C0C26;
+    background-color: #FF5F40;
     color: white;
     text-align: center;
     font-size: 16px;
@@ -155,7 +155,7 @@ a.button1link{
 }
 
 button:hover{
-    background-color: #FF5F40;
+    background-color: #B0330D;
     transition-duration: .8s;
 }
 
@@ -262,7 +262,7 @@ h2{
 
  h3 {
     padding-top: 25px;
-    color:white;
+    color:#679B9B;
     font-family: 'Ranchers';
     font-size: 50px;
     text-align: center;
@@ -277,6 +277,7 @@ p {
     font-family: 'Righteous';
     font-size: 18px;
     text-align: center;
+    
 }
 
 
@@ -291,7 +292,9 @@ p {
 
 .imgGroup img{
    width:320px;
-   padding-right:10px;
+   border-style: double;
+   border-width: 15px;
+   border-color:#FF5F40;
 }
 
 /* FOOTER ////////////////// */
@@ -299,43 +302,86 @@ p {
 
 
 footer{
-
+        
 }
 
 
 .footerContainer{
-
-
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 
+
 .leftFooter{
-
-
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left:25px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:30%; 
 }
 
 .leftFooter a{
-
-    
+    font-size: 14px;
 }
 
 .middleFooter{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+p.copyright {
+    font-size: 10px;
+}
 
+.middleFooter img{
+    width:100px;
+    padding-top:25px; 
 }
 
 .rightFooter{
+padding-right: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width:30%;
+}
 
-
+h4{
+font-family: 'Righteous';
+color:white;
+font-size: 16px;
+text-align: center;
 }
 
 
+.smallText{
+    font-size: 12px;
+    text-align: center;
+}
 
+.socialLinks{
+    padding-top:25px;
+}
 
+.facebook img {
+width: 40px;
+padding-right: 20px;
+}
 
+.instagram img {
+width: 40px;
+padding-right: 20px;
+}
 
-
-
-
+.linkedin img {
+    width: 40px;
+}
 
 
 
