@@ -1,0 +1,56 @@
+
+
+
+.everythingBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.aboutPics{
+    background-color:#1C0C26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:80%;
+}
+
+.imgTeam{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+   
+}
+
+.imgTeam img{
+   width:320px;
+   border-style: double;
+   border-width: 15px;
+   border-color:#FF5F40;
+}
+
+
+ h3 {
+    padding-top: 25px;
+    color:#FF5F40;
+    font-family: 'Ranchers';
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    padding-top: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 25px;
+    color:white;
+    font-family: 'Righteous';
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+

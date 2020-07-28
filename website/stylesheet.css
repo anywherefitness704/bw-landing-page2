@@ -36,27 +36,18 @@ body{
 
 header{
 width:100%;
-background-color:#679B9B;
+background-color:#1C0C26;
 border-bottom-left-radius:25px ;
 border-bottom-right-radius:25px ;
 border-bottom-style: solid;
 border-bottom-color: white;
 border-bottom-width: 3px;
-
-
-
 }
 
 .headerContainer{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-  
-    
-}
-
-.logo{
-    
 }
 
 .logo img{
@@ -180,7 +171,7 @@ button:hover{
   }
 
 .mainTextBox{
-    background-color:#f7c5a8;
+    background-color:#1C0C26;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,7 +184,7 @@ button:hover{
 h1 {
     font-size: 120px;
     font-family: 'Ranchers';
-    color:#FF9A76;
+    color:#FF5F40;
 }
 
 .greenFont {
@@ -218,7 +209,7 @@ h1 {
 }
 
 .box{
-    background-color:#679b9b;
+    background-color:#1C0C26;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,7 +224,6 @@ h2{
     font-size: 120px;
     font-family: 'Ranchers';
     color:#ff5f40;
-
 }
 
 .beigeFont {
@@ -245,7 +235,7 @@ h2{
 /* SECTION 3 / MORE MARKETING */
 
 .box2{
-    background-color:#1c0c26;
+    background-color:#1C0C26;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -255,14 +245,9 @@ h2{
 }
 
 
-.marketingText {
-    
-
-}
-
  h3 {
     padding-top: 25px;
-    color:#679B9B;
+    color:#FF5F40;
     font-family: 'Ranchers';
     font-size: 50px;
     text-align: center;
@@ -285,26 +270,26 @@ p {
     display: flex;
     flex-direction: row;
     text-align: center;
-
- 
-
 }
 
 .imgGroup img{
    width:320px;
    border-style: double;
    border-width: 15px;
-   border-color:#FF5F40;
+   border-color:#FF9A76;
 }
 
 /* FOOTER ////////////////// */
 
 
-
 footer{
-        
-}
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+    border-top-style: solid;
+    border-top-color: white;
+    border-top-width: 3px;
 
+}
 
 .footerContainer{
     display:flex;
@@ -481,7 +466,25 @@ h1 {
    padding-right:10px;
 }
 
+.footerContainer{
+    flex-direction: column;
+    align-items: center;
+}
 
 
+.leftFooter{
+    width: 50%;
+    align-items: center;
+}
+
+.middleFooter{
+    width:50%;
+    
+}
+
+
+.rightFooter{
+    width:50%;
+    }
 
 }
