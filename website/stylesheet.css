@@ -275,9 +275,10 @@ p {
 
 .imgGroup img{
    width:280px;
-   border-style: dotted;
-   border-width: 10px;
+   border-style: solid;
+   border-width: 6px;
    border-color:#FF5F40;
+   border-radius: 200px;
 }
 
 
@@ -293,6 +294,14 @@ p {
     background-size: cover;
 
 }
+
+.testimonial{
+    padding-top:150px;
+    color:white;
+}
+
+
+/* LAST BOX BEFORE FOOTER */
 
 .box{
     background-color:#1C0C26;
@@ -558,7 +567,6 @@ h1 {
     text-align: center;
 
     }
-
 
 
  h2{
