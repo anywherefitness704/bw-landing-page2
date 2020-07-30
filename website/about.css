@@ -1,10 +1,19 @@
 
 
 
+
+body{
+
+    background-color:#1C0C26 ;
+}
+
+
+
 .everythingBox{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -14,8 +23,9 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 40px;
     width:80%;
+    border-radius: 35px;
 }
 
 .imgTeam{
@@ -37,11 +47,24 @@
  h3 {
     padding-top: 25px;
     padding-bottom: 25px;
-    color:#B0330D;;
+    color:#FF5F40;;
     font-family: 'Righteous';
     font-size: 60px;
     text-align: center;
-    text-shadow: 3px 3px white;
+    text-shadow: 2px 2px white;
+    animation-name: theTeam;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 1.5;
+  
+}
+
+@keyframes theTeam{
+    0% {color:#FF5F40; left:0px; right:0px;}
+    25%{color:#679B9B; left:200px; right:200px;}
+    50% {color:#FF5F40; left:0px; right:0px;}
+    75%{color:#679B9B; left:200px; right:200px;}
+    100% {color:#FF5F40; left:0px; right:0px;}
 }
 
 p {
@@ -59,4 +82,27 @@ p {
 .role {
     color:white;
    
+}
+
+footer{
+
+    background-color:#1C0C26 ;
+}
+
+
+
+
+
+
+@media(max-width:500px){
+
+
+@keyframes theTeam{
+    0% {color:#FF5F40;}
+    25%{color:#679B9B;}
+    50% {color:#FF5F40;}
+    75%{color:#679B9B; }
+    100% {color:#FF5F40;}
+}
+
 }
