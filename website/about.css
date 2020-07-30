@@ -30,27 +30,33 @@
    border-style: double;
    border-width: 15px;
    border-color:#FF5F40;
+   border-radius: 200px;
 }
 
 
  h3 {
     padding-top: 25px;
-    color:#FF5F40;
-    font-family: 'Ranchers';
-    font-size: 50px;
+    padding-bottom: 25px;
+    color:#B0330D;;
+    font-family: 'Righteous';
+    font-size: 60px;
     text-align: center;
+    text-shadow: 3px 3px white;
 }
 
 p {
     padding-top: 5px;
     padding-left: 55px;
     padding-right: 55px;
-    padding-bottom: 25px;
-    color:white;
+    padding-bottom: 55px;
+    color:#FF9A76;
     font-family: 'Righteous';
     font-size: 18px;
     text-align: center;
     
 }
 
-
+.role {
+    color:white;
+   
+}
