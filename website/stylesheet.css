@@ -607,12 +607,14 @@ h1 {
 .footerContainer{
     flex-direction: column;
     align-items: center;
+    width:100%;
 }
 
 
 .leftFooter{
-    width: 50%;
+    width: 70%;
     align-items: center;
+    display: none;
 }
 
 .middleFooter{
@@ -623,6 +625,8 @@ h1 {
 
 .rightFooter{
     width:50%;
+    padding-top:50px;
+    padding-bottom:50px;
     }
 
     .testimonial{
