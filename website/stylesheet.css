@@ -298,7 +298,16 @@ p {
 .testimonial{
     padding-top:150px;
     color:white;
+    padding-right:450px;
 }
+
+.testimonial2{
+    padding-top:150px;
+    color:white;
+    padding-left:450px;
+}
+
+
 
 
 /* LAST BOX BEFORE FOOTER */
@@ -498,6 +507,16 @@ p {
     font-size: 14px;
 }
 
+.testimonial{
+    
+    padding-right:150px;
+}
+
+.testimonial2{
+    padding-top:150px;
+    padding-left:150px;
+}
+
 
 
 }
@@ -581,7 +600,7 @@ h1 {
 }
 
 .imgGroup img{
-   width:420px;
+   width:380px;
    padding-right:10px;
 }
 
@@ -604,6 +623,17 @@ h1 {
 
 .rightFooter{
     width:50%;
+    }
+
+    .testimonial{
+        padding-top:150px;
+        padding-right:150px;
+    }
+
+
+    .testimonial2{
+        padding-top:150px;
+        padding-left:150px;
     }
 
 }
