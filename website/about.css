@@ -52,20 +52,38 @@ body{
     font-size: 60px;
     text-align: center;
     text-shadow: 2px 2px white;
-    animation-name: theTeam;
+    /* animation-name: theTeam;
     animation-duration: 5s;
     position: relative;
-    animation-iteration-count: 1.5;
+    animation-iteration-count: 1.5; */
+    animation: 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-name: theTeam ;
   
 }
 
-@keyframes theTeam{
+@keyframes theTeam {
+    0% {
+      letter-spacing: 1em;
+      transform: translateZ(300px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(12px);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+
+
+/* @keyframes theTeam{
     0% {color:#FF5F40; left:0px; right:0px;}
     25%{color:#679B9B; left:200px; right:200px;}
     50% {color:#FF5F40; left:0px; right:0px;}
     75%{color:#679B9B; left:200px; right:200px;}
     100% {color:#FF5F40; left:0px; right:0px;}
-}
+} */
 
 p {
     padding-top: 5px;
